@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: rgb(116, 67, 67);
+}
+h1 {
+  text-align: center;
+  color: aqua;
+  font-size: 2.5rem;
+}
+.container input {
+  padding: 8px;
+  height: 2rem;
+  font-size: 1.5rem;
+  margin-left: 33rem;
+  width: 25%;
+}
+.container #btn1 #btn2 {
+  /* display: block; */
+  display: inline-block;
+}
+#btn1 {
+  color: rgb(12, 240, 248);
+  cursor: pointer;
+  font-size: 2rem;
+  margin-left: 34rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+#btn2 {
+  color: rgb(233, 229, 8);
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-left: 17rem;
+  display: inline-block;
+}
+
+#btn1:hover {
+  color: rgb(172, 236, 20);
+}
+
+#btn2:hover {
+  color: rgb(218, 20, 236);
+}
+@media screen and (max-width: 500px) {
+  .container input {
+    margin-left: 7rem;
+    width: 40%;
+  }
+  #btn1 {
+    margin-top: 1rem;
+    margin-left: 7rem;
+  }
+  #btn2 {
+    margin-left: 11rem;
+    margin-top: 1rem;
+  }
+}
