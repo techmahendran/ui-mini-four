@@ -45,14 +45,14 @@ h1 {
 @media screen and (max-width: 500px) {
   .container input {
     margin-left: 7rem;
-    width: 40%;
+    width: 50%;
   }
   #btn1 {
     margin-top: 1rem;
     margin-left: 7rem;
   }
   #btn2 {
-    margin-left: 11rem;
+    margin-left: 8rem;
     margin-top: 1rem;
   }
 }
